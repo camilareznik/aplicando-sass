@@ -1,0 +1,10 @@
+.primerEstilo {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.segundoEstilo {
+    @extend .primerEstilo;
+    font-size: 30px;
+}

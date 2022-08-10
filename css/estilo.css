@@ -11,6 +11,28 @@ header {
     header li a {
       text-decoration: none; }
 
+.facebook {
+  color: blue; }
+
+.instagram {
+  color: violet; }
+
+.twitter {
+  color: lightblue; }
+
+.primerEstilo, .segundoEstilo {
+  font-size: 20px;
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.segundoEstilo {
+  font-size: 30px; }
+
+.parrafosConEstilo {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center; }
+
 h1 {
   color: black;
   display: flex;
@@ -25,10 +47,6 @@ h1 {
 div p {
   color: black;
   font-size: 35px; }
-  div p .imagen {
-    width: 400px;
-    align-items: center;
-    border: black 2px; }
 
 h2 {
   color: black;
@@ -39,4 +57,15 @@ h2 {
   background-color: #ffced6;
   text-transform: uppercase; }
   h2:hover {
+    color: white; }
+
+h3 {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  background-color: #ffced6;
+  text-transform: uppercase; }
+  h3:hover {
     color: white; }
